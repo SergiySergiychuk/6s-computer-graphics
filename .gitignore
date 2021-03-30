@@ -1,0 +1,6 @@
+.idea
+lab1/*
+!lab1/src
+lab2/*
+!lab2/src
+sample.fxml
