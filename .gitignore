@@ -1,6 +1,11 @@
+openjfx-11.0.2_linux-x64_bin-sdk
 .idea
 lab1/*
 !lab1/src
 lab2/*
 !lab2/src
 sample.fxml
+lab3/*
+!lab3/src
+
+
