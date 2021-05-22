@@ -49,11 +49,11 @@ public class AnimationRocket implements ActionListener, KeyListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         step += 0.01;
-        xloc +=  ImproveNoise.noise(angle, 0, 0) / 10;
+        xloc += ImproveNoise.noise(angle, 0, 0) / 10;
         yloc += ImproveNoise.noise(0, angle, 0) / 10;
         zloc += ImproveNoise.noise(0, angle, 0) / 10;
         Transform3D main = new Transform3D();
-        main.setTranslation(new Vector3f(xloc,yloc,zloc));
+        main.setTranslation(new Vector3f(xloc, yloc, zloc));
 
         angle += 0.02;
         Transform3D rotX = new Transform3D();
