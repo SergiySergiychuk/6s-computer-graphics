@@ -193,10 +193,10 @@ public class Mike extends JFrame {
         sceneGroup.addChild(righthandgr);
         tgRoach.addChild(sceneGroup);
         theScene.addChild(tgRoach);
-        TextureLoader t = new TextureLoader("images/factory.jpg", this);
-        Background bg = new Background(t.getImage());
-        bg.setApplicationBounds(bounds);
-        theScene.addChild(bg);
+//        TextureLoader t = new TextureLoader("images/factory.jpg", this);
+//        Background bg = new Background(t.getImage());
+//        bg.setApplicationBounds(bounds);
+//        theScene.addChild(bg);
         theScene.compile();
 
         su.addBranchGraph(theScene);
